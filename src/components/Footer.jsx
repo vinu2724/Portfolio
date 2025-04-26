@@ -5,19 +5,19 @@ const Footer = () => {
     {
       id: "linkdin",
       title: "LinkedIn",
-      url: "https://www.linkedin.com/in/kritika-rajput/",
+      url: "www.linkedin.com/in/vinayakkhetmalis",
       icon: <LinkedIn />,
     },
     {
       id: "github",
       title: "GitHub",
-      url: "https://github.com/kritikaVijaysinghRajput",
+      url: "https://github.com/vinu2724",
       icon: <GitHub />,
     },
     {
       id: "email",
       title: "Gmail",
-      url: "kritikarajput203@gmailcom",
+      url: "vinayakkhetmalis7@gmailcom",
       icon: <Email />,
     },
   ];
@@ -25,7 +25,7 @@ const Footer = () => {
     <div className="relative flex justify-center gap-4 items-center p-2">
       <div>
         <p className="font-bold md:text-xl text-sm happy-font">
-          kritikarajput@2024
+          vinayakkhetmalis@2025
         </p>
       </div>
       <div className="bg-current h-8 p-1"></div>

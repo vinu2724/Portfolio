@@ -41,25 +41,30 @@ const Hero = () => {
           <div>
             <div className="flex md:ps-0  ">
               <h1
-                className={` mt-6 font-bold happy-font bg-red-400 text-white text-2xl p-1 w-full`}
+                className={` mt-6 font-bold happy-font bg-red-400 text-white text-2xl p-1 w-full rounded-lg`}
               >
                 Hey there , I' m{" "}
               </h1>
 
               <SubHeroSection />
             </div>
-            <div className=" flex flex-col justify-center md:p-auto p-8">
+            <div className=" flex flex-col justify-center w-[50vw] md:p-auto p-8">
               <p
                 className={`${styles.heroSubText} mt-20 md:mt-32 text-[20px] `}
               >
                 {" "}
-                A full stack web and mobile application developer.
+                A software developer.
               </p>
               <p className="happy-font font-bold text-primary p-4 my-4 ps-1">
-                "An innovative MCA student at VPIMSR , Sangli blending technical
-                prowess with creative flair to craft immersive digital
-                experiences for web and mobile platforms. Let's collaborate to
-                engineer something truly extraordinary
+                I'm Vinayak Khetmalis, a passionate and versatile MERN & Java
+                Full Stack Developer. I specialize in building responsive web
+                and mobile applications with modern UI/UX. With hands-on
+                experience in React, Node.js, MongoDB, and PostgreSQL, I deliver
+                scalable backend solutions. I've contributed to real-time
+                industry projects like those at Markytics, sharpening my
+                problem-solving and teamwork. Driven by continuous learning, I
+                love exploring new tech and creating impactful digital
+                experiences.
                 <p className=" inline underline underline-offset-8 font-bold happy-font text-xl">
                   {" "}
                   together!

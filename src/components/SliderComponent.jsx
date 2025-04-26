@@ -67,7 +67,7 @@ const SliderComponent = () => {
                 alt={project.title}
                 className="w-full h-full object-cover"
               />
-              <div className="links flex items-center bg-white p-2 text-black rounded-3xl m-2 gap-4 absolute top-0 right-0">
+              {/* <div className="links flex items-center bg-white p-2 text-black rounded-3xl m-2 gap-4 absolute top-0 right-0">
                 {project.gitlink && (
                   <a href={project.gitlink}>
                     {" "}
@@ -79,7 +79,7 @@ const SliderComponent = () => {
                     <Launch />
                   </a>
                 )}
-              </div>
+              </div> */}
               <div className="absolute bottom-0 px-4 dark:bg-gray-900 bg-gray-200 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50  ">
                 <h3 className="text-lg font-semibold mt-2">{project.title}</h3>
               </div>

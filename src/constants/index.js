@@ -2,15 +2,11 @@ import {
   mobilefr,
   frontendfr,
   backendfr,
-  uixfr,
-  ReactCertificate,
-  pythonCertificate,
-  csscertificate,
-  dsacertificate,
-  netfundamentalscertificate,
-  androidcertificate,
-  dataminingcertificate,
-  cloudcomputing,
+  systemdesign,
+  research_paper,
+  intership,
+  javascript,
+  java_oop,
 } from "../assets";
 import {
   academix,
@@ -25,7 +21,7 @@ export const services = [
   {
     title: "Web",
     image: frontendfr,
-    desc: "As a Frontend Developer,I specialize in crafting captivating user experiences with technologies like React.js and Next.js. Proficient in HTML, CSS, and JavaScript, I create responsive designs using frameworks like Tailwind CSS. My focus on detail ensures seamless navigation and engagement across devices",
+    desc: "As a Frontend Developer,I specialize in crafting captivating user experiences with technologies like React.js. Proficient in HTML, CSS, and JavaScript, I create responsive designs using frameworks like Tailwind CSS. My focus on detail ensures seamless navigation and engagement across devices",
   },
   {
     title: "Mobile",
@@ -35,13 +31,13 @@ export const services = [
   {
     title: "Backend",
     image: backendfr,
-    desc: "In my role as a Backend Developer,With expertise in Express.js, Node.js, and more, I architect robust server-side solutions for dynamic web applications. I excel in database management with SQL, Firebase, and MongoDB, optimizing performance and reliability. My REST API proficiency ensures smooth interactions and scalability.",
+    desc: "In my role as a Backend Developer,With expertise in Express.js, Node.js, and java spring boot, I architect robust server-side solutions for dynamic web applications. I excel in database management with SQL, Firebase, and MongoDB, optimizing performance and reliability. My REST API proficiency ensures smooth interactions and scalability.",
   },
   {
-    title: "UI/UX",
+    title: "System Design",
 
-    image: uixfr,
-    desc: "As a UI/UX Designer, I design intuitive interfaces using tools like Figma, blending creativity with user-centric principles. Attention to detail and collaboration with development teams ensure seamless integration of design and functionality, enhancing the overall user experience",
+    image: systemdesign,
+    desc: "I have a foundational understanding of system design, focusing on building scalable and efficient web applications.I can create basic architectures involving frontend, backend, databases, APIs, and load handling.Through my projects, I’ve practiced designing reliable, modular systems that ensure smooth user experiences.",
   },
 ];
 const frontend = [
@@ -60,9 +56,7 @@ const frontend = [
     name: "TypeScript",
     color: "#2980B9",
   },
-  {
-    name: "Three.Js",
-  },
+
   {
     name: "Tailwind CSS",
     color: "#48C9B0",
@@ -71,9 +65,6 @@ const frontend = [
   {
     name: "React Js",
     color: "#2196F3",
-  },
-  {
-    name: "Next Js 14",
   },
 
   {
@@ -117,22 +108,10 @@ const backendtech = [
     name: "Java",
     color: "#FFEB3B",
   },
-  {
-    name: "Python",
-    color: "#FFEB3B",
-  },
-  {
-    name: "PHP",
-  },
-  {
-    name: "C/C++",
-  },
+
   {
     name: "express Js",
     color: "#B0BEC5",
-  },
-  {
-    name: "asp.net",
   },
 ];
 
@@ -171,49 +150,49 @@ export { frontend, database, devops, backendtech, webtools, mobiletech };
 
 export const certificates = [
   {
-    title: "React",
-    link: "https://www.hackerrank.com/certificates/417ac409e173",
-    img: ReactCertificate,
-  },
-  {
-    title: "CSS",
-    link: "https://www.hackerrank.com/certificates/b94964ad22c9",
-    img: csscertificate,
-  },
-  {
-    title: "Python ",
+    title: "research paper",
     link: "",
-    img: pythonCertificate,
+    img: research_paper,
+  },
+  {
+    title: "intership",
+    link: "",
+    img: intership,
+  },
+  {
+    title: "javascript ",
+    link: "",
+    img: javascript,
   },
 
   {
-    title: "DSA",
+    title: "java oop",
     link: "",
-    img: dsacertificate,
+    img: java_oop,
   },
 ];
-export const certificates2 = [
-  {
-    title: ".NET Certificate",
-    link: "https://www.hackerrank.com/certificates/c3536b132243",
-    img: netfundamentalscertificate,
-  },
-  {
-    title: "Android Certificate",
-    link: "",
-    img: androidcertificate,
-  },
-  {
-    title: "Data Mining Certificate",
-    link: "",
-    img: dataminingcertificate,
-  },
-  {
-    title: "Cloud Computing",
-    link: "",
-    img: cloudcomputing,
-  },
-];
+// export const certificates2 = [
+//   {
+//     title: ".NET Certificate",
+//     link: "https://www.hackerrank.com/certificates/c3536b132243",
+//     img: netfundamentalscertificate,
+//   },
+//   {
+//     title: "Android Certificate",
+//     link: "",
+//     img: androidcertificate,
+//   },
+//   {
+//     title: "Data Mining Certificate",
+//     link: "",
+//     img: dataminingcertificate,
+//   },
+//   {
+//     title: "Cloud Computing",
+//     link: "",
+//     img: cloudcomputing,
+//   },
+// ];
 export const projects = [
   {
     title: "Pintrest",

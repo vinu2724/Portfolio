@@ -33,9 +33,9 @@ const Index = () => {
 
   const navLinks = [
     {
-      id: "about",
-      title: "About",
-      icon: <HomeOutlinedIcon />,
+      id: "featured",
+      title: "Featured",
+      icon: <ViewInArOutlinedIcon />,
     },
     {
       id: "work",
@@ -43,14 +43,15 @@ const Index = () => {
       icon: <WorkOutlineOutlinedIcon />,
     },
     {
+      id: "about",
+      title: "About",
+      icon: <HomeOutlinedIcon />,
+    },
+
+    {
       id: "contact",
       title: "Contact",
       icon: <CallOutlinedIcon />,
-    },
-    {
-      id: "featured",
-      title: "Featured",
-      icon: <ViewInArOutlinedIcon />,
     },
   ];
   const contacts = [
@@ -243,61 +244,25 @@ const Index = () => {
         </div>
       </section>
 
-      <div className="portfolio  mb-16  ">
-        <div className="marquee-container z-50">
-          <p className="marquee-text capitalize  text-[12rem] md:text-[20rem]  ">
-            portfolio.
-          </p>
-          <p className="marquee-text2 capitalize   text-[12rem] md:text-[20rem] ">
-            portfolio.
-          </p>
-        </div>{" "}
-      </div>
-
       <section id="about" className="about_section  relative overflow-hidden ">
-        <div className="relative w-full pt-0 md:px-20">
+        <div className="relative w-full flex flex-row pt-0 md:px-20">
           <Hero />
-          <div className="difference flex flex-col p-2 ">
+          <div className="difference w-1/2 flex flex-col p-2 ">
             <div className="flex items-center gap-36">
               <div className="flex">
-                <p className="md:text-[22rem] font-bold bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-[10rem]">
+                <p className="md:text-[10rem] font-bold bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-[10rem]">
                   Self
                 </p>
                 <p className="font-bold md:text-[10rem] md:mt-0 happy-font  mb-10 text-[3rem] flex items-end">
                   &
                 </p>
               </div>
-
-              {isNonMobileScreens && (
-                <p className=" mt-20 text-xl happy-font ">
-                  My standout quality lies in my versatility across diverse
-                  fields within technology. While others may specialize in one
-                  area, I excel in web development, mobile app development,
-                  backend solutions, and UI/UX design. This versatility allows
-                  me to offer unique insights, solve complex problems
-                  creatively, and deliver innovative solutions that stand out in
-                  the competitive landscape.
-                </p>
-              )}
             </div>
             <div className="flex justify-between md:-mt-40 -mt-24">
-              <p className="md:text-[22rem] font-bold text-[7rem] text-left bg-gradient-to-r from-rose-400 to-red-500 bg-clip-text text-transparent">
+              <p className="md:text-[10rem] font-bold text-[7rem] text-left bg-gradient-to-r from-rose-400 to-red-500 bg-clip-text text-transparent">
                 Others
               </p>
             </div>
-            {!isNonMobileScreens && (
-              <div className="">
-                <p className="font-bold p-2 ">
-                  My standout quality lies in my versatility across diverse
-                  fields within technology. While others may specialize in one
-                  area, I excel in web development, mobile app development,
-                  backend solutions, and UI/UX design. This versatility allows
-                  me to offer unique insights, solve complex problems
-                  creatively, and deliver innovative solutions that stand out in
-                  the competitive landscape.
-                </p>
-              </div>
-            )}
           </div>
         </div>
       </section>

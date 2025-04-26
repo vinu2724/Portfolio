@@ -10,13 +10,13 @@ const SubHeroSection = () => {
               <p className={`${styles.heroHeadText}`}>WEB DEVELOPER</p>
             </li>
             <li className="content__container__list__item text-2xl md:text-5xl">
-              <p className={`${styles.heroHeadText}`}>KRITIKA RAJPUT</p>
+              <p className={`${styles.heroHeadText}`}>vinayak khetmalis</p>
             </li>
             <li className="content__container__list__item text-2xl md:text-5xl">
               <p className={`${styles.heroHeadText}`}>APP DEVELOPER</p>
             </li>
             <li className="content__container__list__item text-2xl md:text-5xl">
-              <p className={`${styles.heroHeadText}`}>UI/UX DESIGNER</p>
+              <p className={`${styles.heroHeadText}`}>System Designer</p>
             </li>
           </ul>
         </div>

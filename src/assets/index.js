@@ -8,21 +8,17 @@ import pricepic from "./profile/profilepic-min.jpg";
 import profilephoto from "./profile.png";
 // #certificates
 
-import dsacertificate from "./certificates/dsacertificate.jpeg";
-import androidcertificate from "./certificates/android.jpeg";
-import dataminingcertificate from "./certificates/datamining.jpeg";
-import netfundamentalscertificate from "./certificates/netfundamentals.jpeg";
-import csscertificate from "./certificates/CSScertificate.png";
-import ReactCertificate from "./certificates/ReactCertificate.png";
-import cloudcomputing from "./certificates/cloudcomputing.jpg";
-import pythonCertificate from "./certificates/pythonCertificate.jpg";
+import java_oop from "../assets/certificates/java_OOP_from_linkedin.png";
+import javascript from "../assets/certificates/Javascript_Scaler_course_certificate.png";
+import intership from "../assets/certificates/Markytics_intership.jpg";
+import research_paper from "../assets/certificates/research_paper_ijrar_certificates.png";
 
 // #other
 import hletter from "./hletter-min.png";
 import backendfr from "./backend-min.jpeg";
 import frontendfr from "./frontend-min.jpeg";
 
-import uixfr from "./uix-min.jpeg";
+import systemdesign from "./systemdesign.png";
 import mobilefr from "./mobile-min.jpeg";
 import rocket from "./rocket-min.gif";
 import box from "./box-min.gif";
@@ -32,16 +28,7 @@ import rocket2 from "./mission-min.png";
 import box2 from "./box-min.png";
 import confluence from "./confluence-min.png";
 
-export {
-  dsacertificate,
-  androidcertificate,
-  dataminingcertificate,
-  netfundamentalscertificate,
-  csscertificate,
-  ReactCertificate,
-  cloudcomputing,
-  pythonCertificate,
-};
+export { research_paper, intership, javascript, java_oop };
 export {
   profile,
   resume,
@@ -54,4 +41,12 @@ export {
   coder,
   profilephoto,
 };
-export { hletter, frontendfr, backendfr, uixfr, mobilefr, letterh, confluence };
+export {
+  hletter,
+  frontendfr,
+  backendfr,
+  systemdesign,
+  mobilefr,
+  letterh,
+  confluence,
+};

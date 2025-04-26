@@ -15,7 +15,7 @@ import { box, box2 } from "../assets";
 export const SkillsBox = ({ isDark }) => {
   return (
     <section id="featured">
-      <div className="md:mx-40 mx-10 relative">
+      <div className="md:mx-20 mx-10 relative">
         <p className=" font-bold text-5xl flex mb-8 items-center gap-4 z-50 md:text-7xl">
           SKILLBOX
           <img

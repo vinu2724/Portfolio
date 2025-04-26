@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { certificates, certificates2 } from "../constants";
+import { certificates } from "../constants";
 import { useMediaQuery } from "@mui/material";
 const VerticalScrollCarousel = () => {
   const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
@@ -15,12 +15,12 @@ const VerticalScrollCarousel = () => {
     <section
       id="#certification"
       ref={targetRef}
-      className=" bg-white dark:bg-[#191919]  relative  bg-transparent "
+      className=" bg-white dark:bg-[#191919]  relative  bg-transparent my-8"
     >
-      <div className="sticky top-0  flex  h-[150vh] items-center overflow-hidden">
-        <div className="certificates absolute top-0 -z-30">
+      <div className="sticky top-0  flex flex-col items-center overflow-hidden ">
+        <div className="certificates ">
           {isNonMobileScreens && (
-            <div className="mt-32 font-semibold text-2xl px-16 happy-font w-[40rem]">
+            <div className="my-8 font-semibold text-2xl px-16 happy-font ">
               My certificates represent a testament to my dedication and
               expertise in various fields. Whether it's academic achievements,
               professional qualifications, or specialized training, each
@@ -28,22 +28,9 @@ const VerticalScrollCarousel = () => {
               growth.
             </div>
           )}
-          <div className="certificates">
-            <div className="marquee-container mt-28 md:mt-10">
-              <p className="marquee-text text-[15rem] md:text-[20rem] ">
-                CERTIFICATIONS.
-              </p>
-              <p className="marquee-text2 text-[15rem] md:text-[20rem]">
-                CERTIFICATIONS.
-              </p>
-            </div>{" "}
-          </div>
         </div>
-        <div className="flex md:justify-end justify-center w-full gap-0">
-          <motion.div
-            style={{ y }}
-            className=" flex  p-1 flex-col md:mt-[150vh] md:gap-2"
-          >
+        <div className="flex md:justify-center justify-center flex flex-col w-full gap-0">
+          <div className=" flex  p-1 flex-row md:gap-2">
             {certificates.map((certificate, index) => (
               <div
                 key={index}
@@ -56,12 +43,9 @@ const VerticalScrollCarousel = () => {
                 />
               </div>
             ))}
-          </motion.div>
+          </div>
 
-          <motion.div
-            style={{ y }}
-            className="  flex p-1 flex-col md:mt-[180vh] mt-20 md:gap-4"
-          >
+          {/* <div className="  flex p-1 flex-row  mt-20 md:gap-4">
             {certificates2.map((certificate, index) => (
               <div
                 key={index}
@@ -74,7 +58,7 @@ const VerticalScrollCarousel = () => {
                 />
               </div>
             ))}
-          </motion.div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -20,21 +20,21 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    // template_by937ha
-    // service_f9lge7n
-    // xSUXSNQa16ExCz0zO
+    // template_31a813f
+    // service_hrw8wg4
+    // 0S-8aw6Zl7Ex2Xewm
     emailjs
       .send(
-        "service_f9lge7n",
-        "template_by937ha",
+        "service_hrw8wg4",
+        "template_31a813f",
         {
           from_name: form.name,
-          to_name: "Kritika",
+          to_name: "vinayak",
           from_email: form.email,
-          to_email: "kritikarajput.work@gmail.com",
+          to_email: "vinayakkhetmalis7@gmail.com",
           message: form.message,
         },
-        "xSUXSNQa16ExCz0zO"
+        "0S-8aw6Zl7Ex2Xewm"
       )
       .then(
         () => {
